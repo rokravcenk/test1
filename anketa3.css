@@ -1,0 +1,46 @@
+h1{
+    text-align:center;
+    border-bottom:1px solid grey;
+    padding:20px;
+    margin-left:20px;
+}
+
+.button{
+    padding:10px 15px 10px 15px;
+    background:blue;
+    text-decoration:none;
+    color:white;
+    position:relative;
+    top:-15px;
+   
+}
+
+
+ ul{
+    list-style-type: none;
+    width:49%;
+    float:right;
+}
+
+input{
+    padding:5px;
+    margin:5px 5px 10px 5px;
+    align-items:right;
+    vertical-align:text-top;
+    display:table;
+    position:relative;
+    top:-65px;
+    right:-100px;
+    
+}
+label{
+    position:relative;
+    top:-45px;
+
+}
+
+p.left{
+    width:49%;
+    text-align: center;
+    float:left;
+}

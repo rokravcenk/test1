@@ -1,0 +1,37 @@
+.flexcontainer{
+  display:flex;
+  flex-direction:row;
+  
+}
+.info {
+        padding:20px;
+        border-bottom:1px solid grey;
+        text-align:center; 
+    }
+
+
+
+.button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 16px;}
+
+.rasymas{
+    display:block;
+    padding:5px;
+    text-align:justify;
+    width:100%;
+}
+    
+form{
+    text-align:left;
+}
+.left{
+    width:49%;
+    text-align:center;
+}

@@ -1,0 +1,33 @@
+.container {
+    position: relative;
+    width:250px;
+}
+
+.image {
+  position:relative;
+  opacity: 1;
+  width: 250px;
+  height: 300px;
+  transition: .5s ease;
+}
+
+i {
+position:absolute;
+top:0;
+left:0;
+bottom:0;
+right:0;
+opacity:0;
+  }
+
+.container:hover .image {
+    opacity: 0.5;
+  }
+  
+i:hover {
+    opacity:1;
+    margin:auto;
+    width:50px;
+    height:50px;
+    color:white;
+}

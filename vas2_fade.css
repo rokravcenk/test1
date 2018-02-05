@@ -1,0 +1,72 @@
+h1{
+    color:#0974b3;
+}
+
+h4{
+    color:#666;
+}
+
+article {
+    border: 1px solid #e7e7e7;
+    height:800px;
+    width:300px;
+    float:left;
+    margin:20px;
+    background-color:white;
+    padding:0 20px 0 20px;
+    text-align:justify;
+
+}
+
+body {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    background-color:gainsboro;
+}
+
+
+.pull-left {
+        float: left;
+    }
+
+.clearfix::after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+
+.container{
+    background-image: url("C:\Users\user1\Desktop\Isaac-Newton.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:150px;
+    height:200px;
+    display:flex;
+    position:relative;
+    margin:5px;
+
+}
+.container:hover i {
+    opacity:1;
+}
+.search{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    width:50px;
+    height:50px;
+    z-index:1;
+}
+
+i{
+    color:white;
+    opacity:0;
+    top:50%;
+    bottom:50%;
+    transform-translate:()
+}

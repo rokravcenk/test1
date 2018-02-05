@@ -1,0 +1,42 @@
+/* pirmas bandymas - lentele*/
+
+table{
+    border-collapse:collapse;
+    width:100%;
+}
+table, th,td{
+    border:1px solid black;
+}
+th,td {
+    text-align:center;
+    padding:15px;
+}
+td:hover{
+    color:white;
+    background-color:blue;
+}
+th{
+    color:white;
+    background-color:rgb(96, 16, 177);
+}
+
+/* kitas bandymas - animacija*/
+
+div{
+    height:100px;
+    width:100px;
+    background-color:coral;
+    animation-name: birka;
+    animation-duration:2s;
+    animation-delay:1s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease;
+}
+@keyframes birka{
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+    
+
+}

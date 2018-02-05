@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;}
+
+body{
+    margin:0;
+}
+
+h1{
+    text-align:center;
+    padding:20px 0 40px 0;
+    color: orange;
+}
+
+
+.columns {
+    float: left;
+    width: 33%;
+    padding: 10px;
+}
+
+.columns img {
+    margin-top: 12px;
+}
+
+/* šita chuinia grynai tam,kas po paveiksliukų eina - "clear" reiškia baigiam šitą š, keičiam kažką" 
+
+.rows:after {
+    content: "";
+    display: table;
+    clear: both;       */
+}

@@ -1,0 +1,89 @@
+body{
+    margin:0;
+}
+nav{
+    background-color:lightskyblue;
+    padding: 10px 40px 10px 10px;
+    text-align: right;
+    border:none;
+}
+nav a{
+
+    padding: 0 0px;
+    text-decoration:none;
+    color:black;
+}
+h1{
+    text-align: center;
+    margin:0;
+    padding: 100px 0;
+    font-size: 45px;
+    color:red;
+
+}
+.hero{
+    background-image: url("https://vignette.wikia.nocookie.net/phobia/images/a/aa/Snow.jpg/revision/latest?cb=20161109045734");
+    background-repeat:none;
+    height:200px;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    text-align:center;
+    font size: 30px;
+}
+h2{
+    text-align:center;
+}
+article{
+    text-align:center;
+}
+p{
+    text-align:center;
+    display:inline-block;
+    margin: 0 30px;
+    padding:20px;
+    font-size:20px;
+    width:200px;
+    height: 600px;
+
+}
+.container{
+width: 100%;
+text-align:center;
+height:150px;
+
+}
+
+.button{
+    background color:black;
+    border:none;
+    color:white;
+    text-align:center;
+    margin: 5px 10px;
+    cursor:pointer;
+    display:inline;
+}
+
+ /*ištryniau tą logo,nes kažkoks šūdas gavosi*/ 
+ 
+ .flex-container{
+     display:flex;
+     justify-content:center;
+     background-color:none;
+ }   
+
+ img{
+     padding:20px;
+ }
+form{
+    text-align:center;
+}
+label{
+    display:block;
+}
+.smikis{
+    display:inline
+}
