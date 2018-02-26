@@ -1,0 +1,131 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+
+.navigate{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+    color:grey;
+    background:black;
+    margin-bottom:0px;
+}
+.logo{
+    flex:1;
+    padding:20px;
+    font-size:20px;
+}
+
+.menu{
+    padding:20px;
+}
+
+.notSlide{
+    font-size:60px;
+    display:flex;
+    flex-wrap:wrap;
+    color:grey;
+    background:rgba(128, 128, 128, 0.219);
+    margin-top:0px;
+    margin-bottom:20px;
+    padding-bottom:10vh;
+    justify-content:center;
+}
+.notSlide h1{
+    text-align:center;
+    align-content:center;
+   
+}
+
+
+h2{
+    margin:10px;
+}
+
+
+
+.threeColumns{
+    display:flex;
+    flex-wrap:wrap;
+
+}
+
+.column{
+    flex:1;
+    margin:10px;
+}
+.column h4{
+    background:rgba(128, 128, 128, 0.157);
+
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+.item{
+    width:350px;
+    height:225px;
+    background:grey;
+    margin:20px;
+    flex:1;
+
+
+}
+
+.box-flex{
+    display:flex;
+  
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.box-text{
+    margin-left:40px;
+    flex:1;
+    text-align:left;
+    margin-bottom:20px;
+}
+.box-img{
+    flex:auto;
+    background:grey;
+    height:300px;
+    
+   
+}
+
+.final{
+    display:flex;
+    justify-content:space-around;
+    align-content:center;
+    margin-bottom:20px;
+    background:rgba(128, 128, 128, 0.233);
+    padding:10px;
+    
+}
+.final p{
+   flex-basis:78%;
+}
+.final button{
+    font-size:20px;
+    flex-basis:18%;
+   
+}
+
+.footer{
+        padding-top:10px;
+        margin-top:10px;
+        border-top:1px solid grey;
+
+}
+
+@media screen and (max-width:500px){
+    .navigate, .threeColumns, .row, .box-flex{
+        flex-direction:column;
+    }
+}
+
