@@ -104,9 +104,6 @@ h2{
     text-align:center;
 }
 
-.all{
-
-}
 .customers{
     display:flex;
     flex-wrap:wrap;
@@ -124,11 +121,8 @@ h2{
     border-top:1px solid grey;
 }
 
-@media screen and(max-width:600px){
-    .box1, .container, .customers{
-        flex-direction:column;
-    }
-    .logo{
+@media only screen and (max-width:600px){
+    .navigate{
         display:none;
     }
     
